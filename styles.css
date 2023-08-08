@@ -9,11 +9,50 @@ html,body {
     height: 100%;
 }
 
-.logo img{
-    height: 100px;
-    width: 100px;
+.logo{
+    height: 110px;
+    width: 110px;
 }
 
+.container{
+    background: darkturquoise;
+}
+a {
+    float: right;
+    padding: 40px 80px;
+    text-decoration: none;
+    color: purple;
+    text-transform: uppercase;
+  }
 nav{
-    display: flex;
+    display: block;
+    height: 200px;
+}
+
+.meal-search-box{
+    display: flex; 
+    padding-left: 35%;
+}
+
+.searchbar{
+    width: 500px;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border: 1px orangered solid;
+    outline: 0;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+}
+
+.searchbtn{
+    width: 55px;
+    height: 55px;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-size: 1.8rem;
+    border: none;
+    background: orangered;
+    color: whitesmoke;
 }
