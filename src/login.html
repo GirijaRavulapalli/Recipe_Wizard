@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Wizard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <div id="nav"></div>
+    <div class="box">
+        <form>
+            <div class="form-group"><label>User Name</label><input type="text" id="username"><br> </div>
+            <div class="form-group"><label>Password</label><input type="password" id="password"><br></div>
+            <button  type="submit" id="login" style="color: white;">Login</button>
+        </form>
+    </div>
+    <script>
+        $(function() {
+         $("#nav").load("index.html");
+        });
+     </script>
+ </body>
+ </html>

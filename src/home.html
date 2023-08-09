@@ -5,20 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Wizard</title>
     <link rel="stylesheet" href="styles.css">
-    <!--Icon library for search button-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
-    <nav>
-        <!-- logo home upload create-account login -->
-        <div class="container">
-        <img src="logo.png" alt="Recipe Wizard Logo" class="logo">
-        <a href="login">Login</=>
-        <a href="new-user">Create Account</a>
-        <a href="upload">Upload Recipe</a>
-        <a href="index.html">Home</a>
-        </div>
-    </nav>
+    <div id="nav"></div>
     <div class="meal-search">
         <div class="meal-search-box">
         <input type="text" class="searchbar" placeholder="Enter ingredients seperated by space" id="searchbar">
@@ -27,5 +17,10 @@
         </button>
         </div>
     </div>
+    <script>
+       $(function() {
+        $("#nav").load("index.html");
+       });
+    </script>
 </body>
 </html>
