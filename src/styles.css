@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 * {
     margin : 0;
     padding: 0;
@@ -91,9 +92,11 @@ nav{
 #username, #email, #password{
     position: relative;
     border: none;
+    outline: 0;
+    justify-content: center;
 }
 
-label{
+.box label{
     padding-left: 5px;
     padding-right: 5px;
     position: relative;
@@ -112,7 +115,7 @@ label{
     width: 300px;
 }
 
-button{
+#login,#create-acc,#upload{
     border-radius: 2rem;
     width: 70px;
     height: 50px;
@@ -120,4 +123,39 @@ button{
     background-color: gold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
+}
+
+.recipe{
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-family: 'Yatra One', cursive;
+}
+
+.recipe input{
+    margin: 10px;
+    border-radius: 2rem;
+    border: 1px solid orangered;
+    outline: 0;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.recipe textarea{
+    margin: 10px;
+    border-radius: 2rem;
+    border: 1px solid orangered;
+    outline: 0;
+    text-align: center;
+}
+
+#ingredients{
+    width: 350px;
+    height:100px;
+}
+
+#prepstep{
+    width: 500px;
+    height:300px;
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Wizard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="nav"></div>
+    </header>
+    <div class="recipe">
+    <form>
+    <label>Name</label>
+    <input type="text"><br>
+    <label for="img">Upload Recipe Image</label>
+    <input type="file" id="img" accept="image/*" style="border:none;border-radius: 0%;"><br>
+    <label>Ingredients</label>
+    <textarea rows="25" cols="15" height="100px" id="ingredients"></textarea><br>
+    <label>Preparation time</label>
+    <input type="text"><br>
+    <label>Preparation Steps</label>
+    <textarea rows="100" cols="30" id="prepstep"></textarea><br>
+    <button type="submit" id="upload">Upload</button>
+    </form>
+    </div>
+    <script>
+        $(function() {
+         $("#nav").load("index.html");
+        });
+    </script>
+ </body>
+ </html>
