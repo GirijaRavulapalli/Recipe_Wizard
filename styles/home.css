@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+
+/* Header */
+#header {
+    background-color: rgb(228, 45, 45);
+    font-size: 1.2rem;
+}
+.meatball {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nav-item {
+    margin-left: 15px;
+}
+.title {
+    font-family: 'Lugrasimo', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 158px;
+    font-size: 2rem;
+    margin-right: 216px;
+    width: 270px;
+}
+
+/* Recipe of the day */
+
+#Recipe-of-the-day {
+    background-color: rgb(249, 242, 242);
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* Features */
+
+#features{
+    border-top: 1px solid grey;
+    background-color: rgb(249, 242, 242);
+    padding-top:30px;
+    padding-bottom: 50px;
+}
+.feature-icon {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 0.75rem;
+}
+.search-img {
+    border-radius: 30%;
+}
+
+/* carousel */
+
+#carousel{
+    background-color:  rgb(254, 245, 245);
+    padding-bottom: 80px;
+}
+
+.carousel-img{
+    max-height: 500px;
+}
+
+/* footer */
+
+#footer{
+    background-color: rgb(228, 45, 45);;
+}
